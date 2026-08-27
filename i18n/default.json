@@ -1,0 +1,16 @@
+﻿{
+  "panel.title": "Community Center Tracker",
+  "tab.now": "Now",
+  "tab.any": "Any",
+  "tab.missing": "?Info",
+  "hud.missing": "missing",
+  "alert.rainToday": "Rain today! Catchable: {{items}}",
+  "alert.rainTomorrow": "Rain forecast tomorrow - prep your rod!",
+  "alert.seasonEnd": "{{days}} days left in {{season}}. Still need: {{items}}",
+  "alert.lastPlantDay": "LAST DAY to plant {{item}}!",
+  "alert.tooLate": "Too late to plant {{item}} ({{days}}d grow) this season.",
+  "alert.cartDay": "Traveling Cart today! Check for: {{items}}",
+  "alert.pig": "You still need a Truffle -> Deluxe Barn + Pig required.",
+  "alert.cabbageToday": "TODAY ONLY: Traveling Cart GUARANTEED to sell Red Cabbage Seeds (Dye Bundle)! Bring 150-1,000g!",
+  "alert.cabbageSoon": "Red Cabbage Seeds guaranteed soon: only {{visits}} cart visit(s) left - keep cash ready!"
+}
