@@ -4,7 +4,6 @@ A Stardew Valley 1.6 mod (SMAPI 4.x) that tracks Community Center bundles:
 a clickable room map, per-season planning, LAST CHANCE alerts, and a live
 section in the To-Dew overlay.
 
-![Gameplay](screenshots/panel.png)
 
 ## Features
 
