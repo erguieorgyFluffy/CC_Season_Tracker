@@ -807,9 +807,10 @@ public class PanelMenu : IClickableMenu
                         rain.ForEach(PushRow);
                     }
                 }
-                var fish = tr.ForSeason(season)
-                             .Where(r => r.Meta?.type is "fish" or "shellfish" && NotReady(r) && CatchableNow(r))
-                             .ToList();
+                var fish = tr.AllMissing
+                    .Where(r => r.Meta?.type is "fish" or "shellfish" && NotReady(r) && CatchableNow(r)
+                        && (r.Meta.seasons.Length == 0 || r.Meta.seasons.Contains(season, cmp)))
+                .ToList();
                 if (fish.Count > 0) { PushHeader($"FISH CATCHABLE NOW  ({fish.Count})"); fish.ForEach(PushRow); }
                 if (!tr.IsRaining && tr.RainFishAvailableNow().Any(NotReady))
                     PushText("Rain-only fish (Catfish, Eel...) are hidden until it rains. See Fish tab.");
