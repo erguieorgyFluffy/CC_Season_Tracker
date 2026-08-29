@@ -1,10 +1,11 @@
 ﻿{
   "Name": "CC Season Tracker",
   "Author": "erguieorgyFluffy",
-  "Version": "1.0.0",
+  "Version": "1.1.0",
   "Description": "Tracks Community Center bundles, grouped by season, with rain-fish and planting-deadline alerts.",
   "UniqueID": "erguieorgyFluffy.CCSeasonTracker",
   "EntryDll": "CCSeasonTracker.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [ "Github:erguieorgyFluffy/CC_Season_Tracker" ]
 }
+
